@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Beatbox" parent="Theme.AppCompat">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/red</item>
+        <item name="colorPrimaryDark">@color/dark_red</item>
+        <item name="colorAccent">@color/gray</item>
+        <item name="android:windowBackground">@color/soothing_blue</item>
+        <item name="buttonStyle">@style/BeatBoxButton</item>
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+    <style name="BeatBoxButton" parent = "Widget.AppCompat.Button.Borderless">
+        <item name="android:background">@drawable/button_beat_box</item>
+    </style>
+
+</resources>
